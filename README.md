@@ -14,9 +14,13 @@ npm run dev
 ```
 
 flask使用的是sqlite数据库
-`pip install -r requirements.txt` 安装环境
-`python manage db init`
-`python manage db migrate`
-`python manage db upgrade`
-`python manager.py runserver -r -d`
+
+安装环境
+```pip install -r requirements.txt``` 
+初始化数据库
+```python manage db init```
+```python manage db migrate```
+```python manage db upgrade```
+运行程序
+```python manager.py runserver -r -d```
 
